@@ -1,0 +1,47 @@
+# Python & Virtual Environment
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Credentials & Sensitive Configs (Keep example files!)
+.env
+config.yaml
+!.env.example
+!config.example.yaml
+
+# Binaries, Drivers & Large Archive Files
+chromedriver.zip
+chromedriver_151.zip
+chromedriver_extracted/
+*.exe
+
+# Temporary Files, Logs & Scraper Dumps
+*.log
+out.txt
+html_dump.txt
+ajax_out.html
+test_js*.js
+*_scratch.html
+downloaded_files/
+
+# Databases (Local Data)
+backend/data/*.db
+backend/data/*.sqlite3
+
+# Android Build & Gradle Files
+.gradle/
+build/
+android/.gradle/
+android/app/build/
+*.apk
+*.aab
+
+# IDE & Operating System Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

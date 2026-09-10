@@ -1,0 +1,84 @@
+general:
+  project_name: "Pronostici Value Analyzer"
+  timezone: "Europe/Rome"
+  output_dir: "backend/output"
+  log_level: "INFO"
+
+scheduler:
+  cron: "0 7 * * *"
+
+leagues:
+  - name: "Serie A"
+    country: "Italia"
+    continent: "Europa"
+    enabled: false
+    priority: "high"
+  - name: "Serie B"
+    country: "Italia"
+    continent: "Europa"
+    enabled: false
+    priority: "medium"
+  - name: "Lega Pro"
+    country: "Italia"
+    continent: "Europa"
+    enabled: false
+    priority: "low"
+  - name: "Premier League"
+    country: "Inghilterra"
+    continent: "Europa"
+    enabled: true
+    priority: "high"
+  - name: "Championship"
+    country: "Inghilterra"
+    continent: "Europa"
+    enabled: false
+    priority: "medium"
+  - name: "La Liga"
+    country: "Spagna"
+    continent: "Europa"
+    enabled: true
+    priority: "high"
+  - name: "Bolivia - Division Profesional"
+    country: "Bolivia"
+    continent: "Sud America"
+    enabled: true
+    priority: "high"
+  - name: "Argentina - Primera Division"
+    country: "Argentina"
+    continent: "Sud America"
+    enabled: true
+    priority: "medium"
+  - name: "Brasile - Serie B"
+    country: "Brasile"
+    continent: "Sud America"
+    enabled: false
+    priority: "low"
+
+analysis:
+  mode: "deep"
+  min_edge: 0.05
+  min_confidence: "media"
+  no_bet_if_missing_data: true
+  markets:
+    - "1X2"
+    - "Over Under 1.5"
+    - "Over Under 2.5"
+    - "Over Under 3.5"
+    - "Gol No Gol"
+    - "Doppia chance"
+    - "Handicap asiatico"
+
+output:
+  write_google_sheets: true
+  write_local_json: true
+  publish_static_json: true
+  public_base_url: "https://example.com/pronostici"
+
+google_sheets:
+  spreadsheet_id: "<GOOGLE_SHEET_ID>"
+  summary_sheet: "partite"
+  log_sheet: "log"
+  config_sheet: "config"
+
+app:
+  latest_json_url: "https://example.com/pronostici/latest.json"

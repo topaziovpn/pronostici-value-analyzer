@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bet1X2 - Dashboard Performance & Filtri Storici</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <!-- Script di fallback per apertura diretta tramite file:/// senza blocchi CORS -->
+    <script src="backend/output/performance_stats.js"></script>
+    <style>
+        :root {
+            --bg-color: #f4f6f8;
+            --primary: #0a1f44;
+            --secondary: #1abc9c;
+            --success: #27ae60;
+            --danger: #e74c3c;
+            --text-main: #2c3e50;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: var(--primary);
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-bottom: 25px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        .filter-card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .filter-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .filter-group label {
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: var(--primary);
+        }
+        .filter-group input, .filter-group select {
+            padding: 8px 12px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 0.9rem;
+        }
+        .btn-quick {
+            background: #eef2f5;
+            border: 1px solid #cbd5e1;
+            padding: 6px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.85rem;
+        }
+        .btn-quick.active {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .kpi-card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            border-bottom: 4px solid var(--secondary);
+        }
+        .kpi-title {
+            font-size: 0.85rem;
+            color: #7f8c8d;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .kpi-value {
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: var(--primary);
+        }
+        .positive { color: var(--success); }
+        .negative { color: var(--danger); }
+        
+        .table-container {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+        }
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+        th {
+            background-color: #f8fafc;
+            color: var(--primary);
+            font-weight: 600;
+        }
+        .badge-won {
+            background: #d4edda;
+            color: #155724;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 0.8rem;
+        }
+        .badge-lost {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bet1X2 - Performance & Filtri Storici</h1>
+    <p>Analisi flessibile per date e tipologia di mercato</p>
+</header>
+
+<div class="container">
+    
+    <!-- Filtri -->
+    <div class="filter-card">
+        <div class="filter-group">
+            <label>Range Date:</label>
+            <button class="btn-quick active" onclick="setQuickDate('all', this)">Tutto</button>
+            <button class="btn-quick" onclick="setQuickDate('7d', this)">Ultimi 7gg</button>
+            <button class="btn-quick" onclick="setQuickDate('30d', this)">Ultimi 30gg</button>
+        </div>
+        
+        <div class="filter-group">
+            <label>Da:</label>
+            <input type="date" id="date-from" onchange="applyFilters()">
+            <label>A:</label>
+            <input type="date" id="date-to" onchange="applyFilters()">
+        </div>
+
+        <div class="filter-group">
+            <label>Tipo Mercato:</label>
+            <select id="market-type" onchange="applyFilters()">
+                <option value="ALL">Tutti i mercati</option>
+                <option value="1X2">Solo 1X2 (1, X, 2)</option>
+                <option value="OU">Solo Over / Under</option>
+                <option value="GGNG">Solo Goal / No Goal</option>
+                <option value="COMBO">Doppia Chance e Combo</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- KPI Filtrati -->
+    <div class="kpi-grid" id="kpi-container">
+        <!-- Generato da JS -->
+    </div>
+
+    <!-- Tabella Dettaglio Scommesse -->
+    <div class="table-container">
+        <h3 style="margin-top:0; color:var(--primary)">Dettaglio Scommesse Filtrate</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Data</th>
+                    <th>Partita</th>
+                    <th>Mercato</th>
+                    <th>Quota</th>
+                    <th>Stake</th>
+                    <th>Esito</th>
+                    <th>Ritorno</th>
+                </tr>
+            </thead>
+            <tbody id="bets-table-body">
+                <!-- Generato da JS -->
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script>
+    let rawBetsData = [];
+
+    async function loadStats() {
+        if (window.PERFORMANCE_STATS && window.PERFORMANCE_STATS.all_bets) {
+            rawBetsData = window.PERFORMANCE_STATS.all_bets || [];
+            applyFilters();
+            return;
+        }
+
+        try {
+            let response = await fetch('backend/output/performance_stats.json?t=' + new Date().getTime());
+            let data = await response.json();
+            rawBetsData = data.all_bets || [];
+            applyFilters();
+        } catch(e) {
+            document.getElementById('kpi-container').innerHTML = '<p style="color:red;">Nessun dato di performance trovato. Avvia backend/src/stats_generator.py per calcolarlo.</p>';
+        }
+    }
+
+    function setQuickDate(type, btn) {
+        document.querySelectorAll('.btn-quick').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        
+        let now = new Date();
+        let fromInput = document.getElementById('date-from');
+        let toInput = document.getElementById('date-to');
+        
+        if (type === 'all') {
+            fromInput.value = '';
+            toInput.value = '';
+        } else if (type === '7d') {
+            let d = new Date();
+            d.setDate(d.getDate() - 7);
+            fromInput.value = d.toISOString().split('T')[0];
+            toInput.value = now.toISOString().split('T')[0];
+        } else if (type === '30d') {
+            let d = new Date();
+            d.setDate(d.getDate() - 30);
+            fromInput.value = d.toISOString().split('T')[0];
+            toInput.value = now.toISOString().split('T')[0];
+        }
+        applyFilters();
+    }
+
+    function applyFilters() {
+        let fromDate = document.getElementById('date-from').value;
+        let toDate = document.getElementById('date-to').value;
+        let marketType = document.getElementById('market-type').value;
+
+        let filtered = rawBetsData.filter(b => {
+            if (fromDate && b.date < fromDate) return false;
+            if (toDate && b.date > toDate) return false;
+
+            let mkt = b.market_clean || b.market || "";
+            if (marketType === "1X2") {
+                if (!["1", "X", "2"].includes(mkt)) return false;
+            } else if (marketType === "OU") {
+                if (!mkt.startsWith("O ") && !mkt.startsWith("U ") && !mkt.includes("Casa O") && !mkt.includes("Trasf O")) return false;
+            } else if (marketType === "GGNG") {
+                if (!["GG", "NG"].includes(mkt)) return false;
+            } else if (marketType === "COMBO") {
+                if (!["1X", "X2", "12"].includes(mkt) && !mkt.includes("+") && !mkt.startsWith("MG")) return false;
+            }
+            return true;
+        });
+
+        let totalBets = filtered.length;
+        let wonBets = filtered.filter(b => b.is_correct).length;
+        let totalStaked = filtered.reduce((acc, b) => acc + (b.stake || 1.0), 0);
+        let totalReturned = filtered.reduce((acc, b) => acc + (b.is_correct ? (b.stake || 1.0) * b.odd : 0), 0);
+        let roi = totalStaked > 0 ? ((totalReturned - totalStaked) / totalStaked * 100) : 0;
+        let yieldVal = totalStaked > 0 ? (totalReturned / totalStaked * 100) : 0;
+        let winRate = totalBets > 0 ? (wonBets / totalBets * 100) : 0;
+
+        let roiClass = roi >= 0 ? 'positive' : 'negative';
+
+        document.getElementById('kpi-container').innerHTML = `
+            <div class="kpi-card">
+                <div class="kpi-title">ROI (Filtrato)</div>
+                <div class="kpi-value ${roiClass}">${roi.toFixed(2)}%</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-title">Yield</div>
+                <div class="kpi-value ${roiClass}">${yieldVal.toFixed(2)}%</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-title">Win Rate</div>
+                <div class="kpi-value">${winRate.toFixed(1)}%</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-title">Totale Scommesse</div>
+                <div class="kpi-value">${totalBets}</div>
+                <div style="font-size:0.8rem; color:#7f8c8d; margin-top:5px;">${wonBets} Vinte / ${totalBets - wonBets} Perse</div>
+            </div>
+        `;
+
+        let tbody = document.getElementById('bets-table-body');
+        if (filtered.length === 0) {
+            tbody.innerHTML = '<tr><td colspan="7" style="text-align:center; color:#7f8c8d;">Nessuna scommessa trovata con i filtri selezionati.</td></tr>';
+            return;
+        }
+
+        tbody.innerHTML = filtered.slice(0, 150).map(b => {
+            let ret = b.is_correct ? (b.stake * b.odd).toFixed(2) : '0.00';
+            let badge = b.is_correct ? '<span class="badge-won">VINCENTE</span>' : '<span class="badge-lost">PERDENTE</span>';
+            return `
+                <tr>
+                    <td>${b.date || '-'}</td>
+                    <td><strong>${b.home_team} - ${b.away_team}</strong></td>
+                    <td>${b.market}</td>
+                    <td>${b.odd}</td>
+                    <td>${b.stake} u</td>
+                    <td>${badge}</td>
+                    <td>${ret} u</td>
+                </tr>
+            `;
+        }).join('');
+    }
+
+    loadStats();
+</script>
+
+</body>
+</html>

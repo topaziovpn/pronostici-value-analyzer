@@ -1,0 +1,3428 @@
+{
+    "date": "2026-08-25",
+    "updated_at": "2026-09-10T16:51:00.131292",
+    "total_analyzed": 90,
+    "tickets": [],
+    "predictions": [
+        {
+            "match_id": "Jong KRC Genk - MVV Maastricht",
+            "date": "2026-08-25",
+            "time": "12:30",
+            "league": "2026-club-friendly",
+            "home_team": "Jong KRC Genk",
+            "away_team": "MVV Maastricht",
+            "home_score": 6,
+            "away_score": 0,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:32.093577",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T12:30Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Kouba - CA Batna",
+            "date": "2026-08-25",
+            "time": "16:00",
+            "league": "2026-club-friendly",
+            "home_team": "Kouba",
+            "away_team": "CA Batna",
+            "home_score": 1,
+            "away_score": 1,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:32.142675",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T16:00Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Abha - Al Khaleej",
+            "date": "2026-08-25",
+            "time": "16:05",
+            "league": "2026-27-saudi-pro-league",
+            "home_team": "Abha",
+            "away_team": "Al Khaleej",
+            "home_score": 1,
+            "away_score": 1,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:32.193780",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T16:05Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Al Taawoun - Al Fayha",
+            "date": "2026-08-25",
+            "time": "16:10",
+            "league": "2026-27-saudi-pro-league",
+            "home_team": "Al Taawoun",
+            "away_team": "Al Fayha",
+            "home_score": 0,
+            "away_score": 0,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:32.243609",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T16:10Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Sabah FK - Hapoel Be'er",
+            "date": "2026-08-25",
+            "time": "16:45",
+            "league": "playoff-round",
+            "home_team": "Sabah FK",
+            "away_team": "Hapoel Be'er",
+            "home_score": 5,
+            "away_score": 2,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:32.295448",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T16:45Z",
+            "time_detail": "AET",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Kruger United - Durban City",
+            "date": "2026-08-25",
+            "time": "17:30",
+            "league": "2026-27-south-african-premiership",
+            "home_team": "Kruger United",
+            "away_team": "Durban City",
+            "home_score": 0,
+            "away_score": 2,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:32.354063",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T17:30Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Marumo Gallants - TS Galaxy FC",
+            "date": "2026-08-25",
+            "time": "17:30",
+            "league": "2026-27-south-african-premiership",
+            "home_team": "Marumo Gallants",
+            "away_team": "TS Galaxy FC",
+            "home_score": 2,
+            "away_score": 3,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:32.421796",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T17:30Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Cardiff City - Norwich City",
+            "date": "2026-08-25",
+            "time": "18:00",
+            "league": "second-round",
+            "home_team": "Cardiff City",
+            "away_team": "Norwich City",
+            "home_score": 1,
+            "away_score": 2,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:32.479021",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:00Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Al Ettifaq - Al Nassr",
+            "date": "2026-08-25",
+            "time": "18:00",
+            "league": "2026-27-saudi-pro-league",
+            "home_team": "Al Ettifaq",
+            "away_team": "Al Nassr",
+            "home_score": 2,
+            "away_score": 3,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:32.559160",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:00Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Al Shabab - Al Riyadh",
+            "date": "2026-08-25",
+            "time": "18:00",
+            "league": "2026-27-saudi-pro-league",
+            "home_team": "Al Shabab",
+            "away_team": "Al Riyadh",
+            "home_score": 3,
+            "away_score": 3,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:32.618159",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:00Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Racing Club Portuense - Club Atlético Antoniano",
+            "date": "2026-08-25",
+            "time": "18:00",
+            "league": "2026-club-friendly",
+            "home_team": "Racing Club Portuense",
+            "away_team": "Club Atlético Antoniano",
+            "home_score": 0,
+            "away_score": 2,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:32.671164",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:00Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Blackpool - Aston Villa U21",
+            "date": "2026-08-25",
+            "time": "18:00",
+            "league": "group-stage",
+            "home_team": "Blackpool",
+            "away_team": "Aston Villa U21",
+            "home_score": 0,
+            "away_score": 0,
+            "status": "POSTPONED",
+            "updated_at": "2026-08-26T10:05:32.735123",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:00Z",
+            "time_detail": "Postponed",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Bristol Rovers - Chelsea U21",
+            "date": "2026-08-25",
+            "time": "18:00",
+            "league": "group-stage",
+            "home_team": "Bristol Rovers",
+            "away_team": "Chelsea U21",
+            "home_score": 2,
+            "away_score": 2,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:32.791516",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:00Z",
+            "time_detail": "FT-Pens",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Arsenal Sarandi - Ituzaingó",
+            "date": "2026-08-25",
+            "time": "18:00",
+            "league": "regular-season",
+            "home_team": "Arsenal Sarandi",
+            "away_team": "Ituzaingó",
+            "home_score": 2,
+            "away_score": 0,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:32.847549",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:00Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Real Pilar - Brown de Adrogué",
+            "date": "2026-08-25",
+            "time": "18:00",
+            "league": "regular-season",
+            "home_team": "Real Pilar",
+            "away_team": "Brown de Adrogué",
+            "home_score": 2,
+            "away_score": 0,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:32.897415",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:00Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "San Martín (Burzaco) - Argentino de Quilmes",
+            "date": "2026-08-25",
+            "time": "18:00",
+            "league": "regular-season",
+            "home_team": "San Martín (Burzaco)",
+            "away_team": "Argentino de Quilmes",
+            "home_score": 3,
+            "away_score": 2,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:32.944672",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:00Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Sportivo Italiano - Defensores Unidos",
+            "date": "2026-08-25",
+            "time": "18:00",
+            "league": "regular-season",
+            "home_team": "Sportivo Italiano",
+            "away_team": "Defensores Unidos",
+            "home_score": 0,
+            "away_score": 2,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:33.003627",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:00Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "UAI Urquiza - Deportivo Laferrere",
+            "date": "2026-08-25",
+            "time": "18:00",
+            "league": "regular-season",
+            "home_team": "UAI Urquiza",
+            "away_team": "Deportivo Laferrere",
+            "home_score": 0,
+            "away_score": 2,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:33.058617",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:00Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Villa Dálmine - Talleres de Remedios",
+            "date": "2026-08-25",
+            "time": "18:00",
+            "league": "regular-season",
+            "home_team": "Villa Dálmine",
+            "away_team": "Talleres de Remedios",
+            "home_score": 0,
+            "away_score": 0,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:33.104792",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:00Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Villa San Carlos - Flandria",
+            "date": "2026-08-25",
+            "time": "18:00",
+            "league": "regular-season",
+            "home_team": "Villa San Carlos",
+            "away_team": "Flandria",
+            "home_score": 3,
+            "away_score": 2,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:33.180306",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:00Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Deportivo Pereira - Jaguares de Córdoba",
+            "date": "2026-08-25",
+            "time": "18:00",
+            "league": "clausura",
+            "home_team": "Deportivo Pereira",
+            "away_team": "Jaguares de Córdoba",
+            "home_score": 0,
+            "away_score": 0,
+            "status": "POSTPONED",
+            "updated_at": "2026-08-26T10:05:33.226790",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:00Z",
+            "time_detail": "Postponed",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Doncaster Rovers - Middlesbrough",
+            "date": "2026-08-25",
+            "time": "18:30",
+            "league": "second-round",
+            "home_team": "Doncaster Rovers",
+            "away_team": "Middlesbrough",
+            "home_score": 1,
+            "away_score": 3,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:33.279046",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:30Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Baffins Milton Rovers - Hartley Wintney",
+            "date": "2026-08-25",
+            "time": "18:30",
+            "league": "preliminary-round",
+            "home_team": "Baffins Milton Rovers",
+            "away_team": "Hartley Wintney",
+            "home_score": 1,
+            "away_score": 0,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:33.332609",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:30Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Barnsley - Crewe Alexandra",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "second-round",
+            "home_team": "Barnsley",
+            "away_team": "Crewe Alexandra",
+            "home_score": 3,
+            "away_score": 2,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:33.379861",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Blackburn Rovers - Sheffield United",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "second-round",
+            "home_team": "Blackburn Rovers",
+            "away_team": "Sheffield United",
+            "home_score": 1,
+            "away_score": 2,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:33.428232",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Blackpool - Lincoln City",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "second-round",
+            "home_team": "Blackpool",
+            "away_team": "Lincoln City",
+            "home_score": 1,
+            "away_score": 4,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:33.475629",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Cambridge United - Millwall",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "second-round",
+            "home_team": "Cambridge United",
+            "away_team": "Millwall",
+            "home_score": 0,
+            "away_score": 1,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:33.525851",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Fleetwood Town - Shrewsbury Town",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "second-round",
+            "home_team": "Fleetwood Town",
+            "away_team": "Shrewsbury Town",
+            "home_score": 4,
+            "away_score": 0,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:33.574026",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Ipswich Town - Leicester City",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "second-round",
+            "home_team": "Ipswich Town",
+            "away_team": "Leicester City",
+            "home_score": 3,
+            "away_score": 1,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:33.628335",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Plymouth Argyle - Coventry City",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "second-round",
+            "home_team": "Plymouth Argyle",
+            "away_team": "Coventry City",
+            "home_score": 2,
+            "away_score": 4,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:33.685302",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Sheffield Wednesday - Wolverhampton Wanderers",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "second-round",
+            "home_team": "Sheffield Wednesday",
+            "away_team": "Wolverhampton Wanderers",
+            "home_score": 0,
+            "away_score": 2,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:33.767478",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Southampton - West Ham United",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "second-round",
+            "home_team": "Southampton",
+            "away_team": "West Ham United",
+            "home_score": 1,
+            "away_score": 4,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:33.827438",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Stevenage - Reading",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "second-round",
+            "home_team": "Stevenage",
+            "away_team": "Reading",
+            "home_score": 0,
+            "away_score": 3,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:33.877521",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Stoke City - Hull City",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "second-round",
+            "home_team": "Stoke City",
+            "away_team": "Hull City",
+            "home_score": 1,
+            "away_score": 1,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:33.935787",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT-Pens",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Walsall - Leyton Orient",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "second-round",
+            "home_team": "Walsall",
+            "away_team": "Leyton Orient",
+            "home_score": 0,
+            "away_score": 0,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:33.993927",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT-Pens",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Watford - Peterborough United",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "second-round",
+            "home_team": "Watford",
+            "away_team": "Peterborough United",
+            "home_score": 1,
+            "away_score": 5,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:34.043989",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Badshot Lea - AFC Stoneham",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "preliminary-round",
+            "home_team": "Badshot Lea",
+            "away_team": "AFC Stoneham",
+            "home_score": 0,
+            "away_score": 2,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:34.171395",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Baldock Town - Romford",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "preliminary-round",
+            "home_team": "Baldock Town",
+            "away_team": "Romford",
+            "home_score": 0,
+            "away_score": 1,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:34.218428",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Bourne Town - Bottesford Town",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "preliminary-round",
+            "home_team": "Bourne Town",
+            "away_team": "Bottesford Town",
+            "home_score": 5,
+            "away_score": 1,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:34.266966",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Corinthian - Broadfields United",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "preliminary-round",
+            "home_team": "Corinthian",
+            "away_team": "Broadfields United",
+            "home_score": 0,
+            "away_score": 1,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:34.333495",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Droitwich Spa - Hanley Town",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "preliminary-round",
+            "home_team": "Droitwich Spa",
+            "away_team": "Hanley Town",
+            "home_score": 0,
+            "away_score": 2,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:34.417670",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Fakenham Town - St. Ives Town",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "preliminary-round",
+            "home_team": "Fakenham Town",
+            "away_team": "St. Ives Town",
+            "home_score": 2,
+            "away_score": 0,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:34.472949",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Faversham Town - Bedfont",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "preliminary-round",
+            "home_team": "Faversham Town",
+            "away_team": "Bedfont",
+            "home_score": 4,
+            "away_score": 0,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:34.526640",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Frenford - Haringey Borough",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "preliminary-round",
+            "home_team": "Frenford",
+            "away_team": "Haringey Borough",
+            "home_score": 3,
+            "away_score": 2,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:34.593159",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "AET",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Hassocks - Westfield",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "preliminary-round",
+            "home_team": "Hassocks",
+            "away_team": "Westfield",
+            "home_score": 0,
+            "away_score": 3,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:34.649006",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Haywards Heath Town - Sutton Common Rovers",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "preliminary-round",
+            "home_team": "Haywards Heath Town",
+            "away_team": "Sutton Common Rovers",
+            "home_score": 2,
+            "away_score": 1,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:34.702759",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Heaton Stannington - Kendal Town",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "preliminary-round",
+            "home_team": "Heaton Stannington",
+            "away_team": "Kendal Town",
+            "home_score": 4,
+            "away_score": 2,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:34.751578",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Horbury Town - 1874 Norwich",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "preliminary-round",
+            "home_team": "Horbury Town",
+            "away_team": "1874 Norwich",
+            "home_score": 1,
+            "away_score": 0,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:34.819754",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Long Eaton United - AFC Rushden & Diamonds",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "preliminary-round",
+            "home_team": "Long Eaton United",
+            "away_team": "AFC Rushden & Diamonds",
+            "home_score": 1,
+            "away_score": 1,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:34.871960",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT-Pens",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Milton Keynes Irish - Slimbridge",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "preliminary-round",
+            "home_team": "Milton Keynes Irish",
+            "away_team": "Slimbridge",
+            "home_score": 1,
+            "away_score": 1,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:34.917802",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT-Pens",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Portishead Town - Larkhall Athletic",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "preliminary-round",
+            "home_team": "Portishead Town",
+            "away_team": "Larkhall Athletic",
+            "home_score": 1,
+            "away_score": 0,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:34.966256",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Potters Bar Town - Witham Town",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "preliminary-round",
+            "home_team": "Potters Bar Town",
+            "away_team": "Witham Town",
+            "home_score": 0,
+            "away_score": 1,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:35.068325",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Prescot Cables - Litherland Remyca",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "preliminary-round",
+            "home_team": "Prescot Cables",
+            "away_team": "Litherland Remyca",
+            "home_score": 1,
+            "away_score": 0,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:35.115857",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "SE Dons - Punjab United",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "preliminary-round",
+            "home_team": "SE Dons",
+            "away_team": "Punjab United",
+            "home_score": 2,
+            "away_score": 0,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:35.164925",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Tadley Calleva - Hamble Club",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "preliminary-round",
+            "home_team": "Tadley Calleva",
+            "away_team": "Hamble Club",
+            "home_score": 3,
+            "away_score": 1,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:35.211847",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Westbury United - AFC Portchester",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "preliminary-round",
+            "home_team": "Westbury United",
+            "away_team": "AFC Portchester",
+            "home_score": 0,
+            "away_score": 1,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:35.258554",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "AET",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Wisbech Town - Yaxley",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "preliminary-round",
+            "home_team": "Wisbech Town",
+            "away_team": "Yaxley",
+            "home_score": 2,
+            "away_score": 2,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:35.304437",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT-Pens",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Wokingham Town - Hungerford Town",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "preliminary-round",
+            "home_team": "Wokingham Town",
+            "away_team": "Hungerford Town",
+            "home_score": 1,
+            "away_score": 2,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T09:52:31.158063",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Airdrieonians - Stirling Albion",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "league-phase",
+            "home_team": "Airdrieonians",
+            "away_team": "Stirling Albion",
+            "home_score": 1,
+            "away_score": 3,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:35.407936",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Alloa Athletic - Motherwell B",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "league-phase",
+            "home_team": "Alloa Athletic",
+            "away_team": "Motherwell B",
+            "home_score": 3,
+            "away_score": 0,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:35.527704",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Annan Athletic - Berwick Rangers",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "league-phase",
+            "home_team": "Annan Athletic",
+            "away_team": "Berwick Rangers",
+            "home_score": 2,
+            "away_score": 2,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:35.581002",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Bonnyrigg Rose - Rangers B",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "league-phase",
+            "home_team": "Bonnyrigg Rose",
+            "away_team": "Rangers B",
+            "home_score": 2,
+            "away_score": 1,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:35.651028",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Clachnacuddin - Elgin City",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "league-phase",
+            "home_team": "Clachnacuddin",
+            "away_team": "Elgin City",
+            "home_score": 0,
+            "away_score": 2,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:35.704231",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Cove Rangers - Dundee United B",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "league-phase",
+            "home_team": "Cove Rangers",
+            "away_team": "Dundee United B",
+            "home_score": 2,
+            "away_score": 0,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:35.756891",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Cowdenbeath - East Kilbride",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "league-phase",
+            "home_team": "Cowdenbeath",
+            "away_team": "East Kilbride",
+            "home_score": 1,
+            "away_score": 3,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:35.829541",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Cumbernauld Colts - Kilmarnock B",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "league-phase",
+            "home_team": "Cumbernauld Colts",
+            "away_team": "Kilmarnock B",
+            "home_score": 1,
+            "away_score": 1,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:35.878437",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Dumbarton - Celtic B",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "league-phase",
+            "home_team": "Dumbarton",
+            "away_team": "Celtic B",
+            "home_score": 2,
+            "away_score": 2,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:35.923814",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "East Fife - St Mirren B",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "league-phase",
+            "home_team": "East Fife",
+            "away_team": "St Mirren B",
+            "home_score": 2,
+            "away_score": 5,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:35.972997",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Forfar Athletic - Formartine United",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "league-phase",
+            "home_team": "Forfar Athletic",
+            "away_team": "Formartine United",
+            "home_score": 1,
+            "away_score": 0,
+            "status": "POSTPONED",
+            "updated_at": "2026-08-26T10:05:36.027234",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "Susp",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Fraserburgh - Aberdeen B",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "league-phase",
+            "home_team": "Fraserburgh",
+            "away_team": "Aberdeen B",
+            "home_score": 1,
+            "away_score": 1,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:36.099200",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Hamilton Academical - Edinburgh City",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "league-phase",
+            "home_team": "Hamilton Academical",
+            "away_team": "Edinburgh City",
+            "home_score": 0,
+            "away_score": 1,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:36.177536",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Kelty Hearts - Clydebank",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "league-phase",
+            "home_team": "Kelty Hearts",
+            "away_team": "Clydebank",
+            "home_score": 2,
+            "away_score": 4,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:36.233585",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Montrose - Clyde",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "league-phase",
+            "home_team": "Montrose",
+            "away_team": "Clyde",
+            "home_score": 3,
+            "away_score": 0,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:36.342087",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Peterhead - Dundee B",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "league-phase",
+            "home_team": "Peterhead",
+            "away_team": "Dundee B",
+            "home_score": 2,
+            "away_score": 1,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:36.487608",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Queen of the South - Hibernian B",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "league-phase",
+            "home_team": "Queen of the South",
+            "away_team": "Hibernian B",
+            "home_score": 1,
+            "away_score": 0,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:36.542610",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Ross County - Banks O'Dee",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "league-phase",
+            "home_team": "Ross County",
+            "away_team": "Banks O'Dee",
+            "home_score": 4,
+            "away_score": 0,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:36.593608",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Spartans FC - Heart of Midlothian B",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "league-phase",
+            "home_team": "Spartans FC",
+            "away_team": "Heart of Midlothian B",
+            "home_score": 5,
+            "away_score": 0,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T09:52:32.166217",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Stranraer - Gala Fairydean",
+            "date": "2026-08-25",
+            "time": "18:45",
+            "league": "league-phase",
+            "home_team": "Stranraer",
+            "away_team": "Gala Fairydean",
+            "home_score": 3,
+            "away_score": 0,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:36.714562",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T18:45Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Birmingham City - Brentford",
+            "date": "2026-08-25",
+            "time": "19:00",
+            "league": "second-round",
+            "home_team": "Birmingham City",
+            "away_team": "Brentford",
+            "home_score": 1,
+            "away_score": 6,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:36.795672",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T19:00Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Valencia - Real Betis",
+            "date": "2026-08-25",
+            "time": "19:00",
+            "league": "2026-27-laliga",
+            "home_team": "Valencia",
+            "away_team": "Real Betis",
+            "home_score": 0,
+            "away_score": 1,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:36.855047",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T19:00Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Bodo/Glimt - NEC Nijmegen",
+            "date": "2026-08-25",
+            "time": "19:00",
+            "league": "playoff-round",
+            "home_team": "Bodo/Glimt",
+            "away_team": "NEC Nijmegen",
+            "home_score": 3,
+            "away_score": 0,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:36.953945",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T19:00Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "LASK Linz - Celtic",
+            "date": "2026-08-25",
+            "time": "19:00",
+            "league": "playoff-round",
+            "home_team": "LASK Linz",
+            "away_team": "Celtic",
+            "home_score": 5,
+            "away_score": 1,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:37.019905",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T19:00Z",
+            "time_detail": "AET",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "GV San José - Oriente Petrolero",
+            "date": "2026-08-25",
+            "time": "19:00",
+            "league": "2026-bolivian-liga-profesional",
+            "home_team": "GV San José",
+            "away_team": "Oriente Petrolero",
+            "home_score": 3,
+            "away_score": 3,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:37.073259",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T19:00Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "2 de Mayo - Guaraní",
+            "date": "2026-08-25",
+            "time": "21:30",
+            "league": "torneo-clausura-2026",
+            "home_team": "2 de Mayo",
+            "away_team": "Guaraní",
+            "home_score": 0,
+            "away_score": 0,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:37.145917",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T21:30Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Deportivo Madryn - Godoy Cruz Antonio Tomba",
+            "date": "2026-08-25",
+            "time": "22:00",
+            "league": "regular-season",
+            "home_team": "Deportivo Madryn",
+            "away_team": "Godoy Cruz Antonio Tomba",
+            "home_score": 2,
+            "away_score": 0,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:37.196410",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T22:00Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Atlético Goianiense - Botafogo-SP",
+            "date": "2026-08-25",
+            "time": "22:30",
+            "league": "2026-brasileiro-serie-b",
+            "home_team": "Atlético Goianiense",
+            "away_team": "Botafogo-SP",
+            "home_score": 3,
+            "away_score": 0,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:37.288372",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T22:30Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Juventude - CRB",
+            "date": "2026-08-25",
+            "time": "22:30",
+            "league": "2026-brasileiro-serie-b",
+            "home_team": "Juventude",
+            "away_team": "CRB",
+            "home_score": 2,
+            "away_score": 1,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:37.441067",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T22:30Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Excursionistas - Argentino de Merlo",
+            "date": "2026-08-25",
+            "time": "23:00",
+            "league": "regular-season",
+            "home_team": "Excursionistas",
+            "away_team": "Argentino de Merlo",
+            "home_score": 2,
+            "away_score": 0,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:37.694727",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T23:00Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Atlético Bucaramanga - Águilas Doradas",
+            "date": "2026-08-25",
+            "time": "23:00",
+            "league": "clausura",
+            "home_team": "Atlético Bucaramanga",
+            "away_team": "Águilas Doradas",
+            "home_score": 0,
+            "away_score": 0,
+            "status": "POSTPONED",
+            "updated_at": "2026-08-26T10:05:37.781735",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T23:00Z",
+            "time_detail": "Postponed",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        },
+        {
+            "match_id": "Universitario de Vinto - Nacional Potosí",
+            "date": "2026-08-25",
+            "time": "23:00",
+            "league": "2026-bolivian-liga-profesional",
+            "home_team": "Universitario de Vinto",
+            "away_team": "Nacional Potosí",
+            "home_score": 2,
+            "away_score": 0,
+            "status": "FT (Conclusa)",
+            "updated_at": "2026-08-26T10:05:37.832937",
+            "closing_odds_json": null,
+            "start_time": "2026-08-25T23:00Z",
+            "time_detail": "FT",
+            "odds": {
+                "1": null,
+                "X": null,
+                "2": null
+            },
+            "best_exact_score": "N/D",
+            "data_quality": 0,
+            "top_predictions": [
+                {
+                    "market": "NO BET (Dati non disponibili)",
+                    "prob": 0,
+                    "odd": 0,
+                    "ev": 0,
+                    "edge": 0,
+                    "value_level": "NO BET",
+                    "is_correct": false
+                }
+            ],
+            "analysis_360": "Analisi in corso. Dati non sufficienti per generare il report statistico completo.",
+            "raw_stats": {},
+            "disclaimer": "Nessuna scommessa sicura.",
+            "teamA": "",
+            "teamB": ""
+        }
+    ]
+}

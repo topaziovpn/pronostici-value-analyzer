@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>Pronostici Value Analyzer - PRO SYSTEM</title>
+    <script src="backend/output/performance_stats.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Merriweather:ital,wght@0,300;0,700;1,300&display=swap');
+        
+        :root {
+            --bg-color: #f4f6f8;
+            --primary: #0a1f44;
+            --secondary: #1abc9c;
+            --success: #27ae60;
+            --text-main: #2c3e50;
+            --text-article: #333333;
+            --text-muted: #7f8c8d;
+            --border-color: #e1e8ed;
+        }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: var(--primary);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3, h4 { font-family: 'Inter', sans-serif; margin-top: 0; }
+        .pro-badge { background: #e74c3c; padding: 4px 8px; border-radius: 4px; font-size: 0.5em; vertical-align: middle; }
+        
+        .container { width: 98%; max-width: 1600px; margin: 30px auto; padding: 0 15px 80px 15px; }
+        
+        .status-bar { text-align: center; margin-bottom: 30px; font-size: 0.9rem; color: var(--text-muted); }
+        .status-bar select, .status-bar button { padding: 8px 15px; font-weight: bold; border-radius: 6px; border: 1px solid var(--border-color); cursor: pointer; }
+        .status-bar button { background: var(--primary); color: white; border: none; margin-left: 10px; }
+        
+        /* SCHEDINE PRONTE */
+        .tickets-wrapper { margin-bottom: 40px; }
+        .tickets-title { font-size: 1.5rem; font-weight: 800; text-transform: uppercase; color: var(--primary); margin-bottom: 20px; border-bottom: 2px solid var(--primary); padding-bottom: 10px; }
+        .tickets-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
+        .ticket-card { background: white; border: 1px solid var(--border-color); border-radius: 8px; overflow: hidden; }
+        .ticket-header { background: #fdfefe; color: var(--primary); padding: 15px; text-align: center; font-weight: 800; font-size: 1.1rem; border-bottom: 1px solid var(--border-color); }
+        .ticket-stake { background: #fff5f5; color: #c0392b; text-align: center; font-size: 0.8rem; font-weight: bold; padding: 6px; }
+        .ticket-matches { padding: 15px; }
+        .t-match { margin-bottom: 15px; border-bottom: 1px solid #f0f4f8; padding-bottom: 10px; }
+        .t-match:last-child { margin-bottom: 0; border-bottom: none; padding-bottom: 0; }
+        .t-match-title { font-weight: 600; color: #34495e; font-size: 0.95rem; margin-bottom: 5px; }
+        .t-match-pred { display: flex; justify-content: space-between; font-size: 0.9rem; }
+        .ticket-footer { background: #f8f9fa; padding: 15px; text-align: center; border-top: 1px solid var(--border-color); font-size: 1rem; }
+        .ticket-total-odd { font-size: 1.4rem; font-weight: 900; color: var(--success); }
+
+        /* ARTICOLO PRONOSTICO */
+        .article-card { background: white; border: 1px solid var(--border-color); border-radius: 8px; margin-bottom: 25px; padding: 25px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        .article-meta { font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px; font-weight: 600; display: flex; justify-content: space-between;}
+        .article-title { font-size: 1.1rem; font-weight: 800; color: var(--primary); margin-bottom: 10px; line-height: 1.3; cursor: pointer; transition: color 0.2s;}
+        .article-title:hover { color: var(--secondary); }
+        
+        .score-box { background: #f8f9fa; border: 1px solid #e1e8ed; padding: 4px 10px; border-radius: 4px; font-weight: bold; font-size: 0.9rem; color: #2c3e50; }
+        .score-live { color: #27ae60; border-color: #27ae60; background: #e8f8f5; }
+        .blink { animation: blinker 1.5s linear infinite; color: #e74c3c; font-size: 0.8em; }
+        @keyframes blinker { 50% { opacity: 0; } }
+
+        /* ACCORDION TRIGGER */
+        .read-more-btn { background: none; border: none; color: var(--secondary); font-size: 0.85rem; font-weight: 600; cursor: pointer; padding: 0; margin-top: 8px; display: inline-flex; align-items: center; gap: 5px; }
+        .read-more-btn:hover { text-decoration: underline; }
+        .article-content { max-height: 0; overflow: hidden; transition: max-height 0.4s ease-out; }
+        
+        /* DETTAGLIO ARTICOLO (GOAL.COM STYLE) */
+        .article-body { margin-top: 15px; border-top: 1px solid #eee; padding-top: 15px; }
+        .article-body h3 { font-size: 1rem; color: var(--primary); margin-bottom: 10px; margin-top: 15px; border-left: 4px solid var(--secondary); padding-left: 10px; }
+        .article-body h3:first-child { margin-top: 0; }
+        
+        .article-text { font-family: 'Merriweather', serif; font-size: 0.9rem; line-height: 1.7; color: var(--text-article); margin-bottom: 15px; text-align: justify; text-justify: inter-word; }
+        
+        .bets-list { list-style: none; padding: 0; margin: 0 0 15px 0; }
+        .bets-list li { background: #f8f9fa; padding: 6px 10px; margin-bottom: 6px; border-left: 3px solid var(--success); font-size: 0.9rem; display: flex; align-items: center; gap: 8px;}
+        .bets-list li:last-child { margin-bottom: 0; }
+        .checkmark { color: var(--success); font-weight: bold; font-size: 1rem; }
+        
+        .stats-list { list-style: none; padding: 0; margin: 0; font-family: 'Inter', sans-serif; }
+        .stats-list li { padding: 8px 0; border-bottom: 1px dashed #eee; font-size: 0.95rem; }
+        .stats-list li:last-child { border-bottom: none; }
+        .stats-list strong { color: var(--primary); display: inline-block; width: 180px;}
+
+        .provider-note { font-size: 0.8rem; color: #bdc3c7; font-style: italic; margin-top: 30px; text-align: right; }
+
+        footer { background-color: var(--primary); color: white; text-align: center; padding: 15px 0; position: fixed; bottom: 0; width: 100%; font-size: 0.85rem; font-weight: 500; letter-spacing: 1px; z-index: 100; }
+    
+        .betmate-table { width: 100%; border-collapse: collapse; margin-top: 20px; font-size: 0.75rem; background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 8px; overflow: hidden; }
+        .betmate-table th, .betmate-table td { padding: 8px 6px; border-bottom: 1px solid #eee; text-align: center; vertical-align: middle; }
+        .betmate-table th { background: #004d40; color: white; font-weight: bold; text-transform: uppercase; font-size: 0.7rem; letter-spacing: 0px; }
+        .betmate-table tr:hover { background-color: #f1f8ff; }
+        .betmate-table .event-name { text-align: left; font-weight: 600; color: #2c3e50; font-size: 0.95rem; }
+        .betmate-table .odd-box { background: #e0e0e0; padding: 4px 8px; border-radius: 4px; display: inline-block; min-width: 40px; font-weight: bold; font-family: monospace; font-size: 0.9rem;}
+        .betmate-table .our-pick { background: #d4edda; color: #155724; font-weight: bold; border-radius: 4px; padding: 4px 8px; border: 1px solid #c3e6cb;}
+        .betmate-table .analysis-row { display: none; background: #fafafa; text-align: left; box-shadow: inset 0 3px 6px rgba(0,0,0,0.05); }
+        .betmate-table .analysis-row td { padding: 20px; border-bottom: 2px solid #004d40; }
+        .btn-info-small { background: #00796b; color: white; border: none; padding: 6px 12px; border-radius: 4px; cursor: pointer; font-weight: bold; transition: background 0.2s; }
+        .btn-info-small:hover { background: #004d40; }
+        .league-col { display:flex; flex-direction:column; align-items:center; }
+        .league-name { font-size: 0.7rem; color: #7f8c8d; font-weight:bold; }
+        .time-name { font-size: 0.85rem; font-weight: bold; color: #34495e; }
+
+    
+        .stat-card { background: rgba(255, 255, 255, 0.1); padding: 8px 15px; border-radius: 8px; min-width: 130px; text-align: center; border: 1px solid rgba(255, 255, 255, 0.2); }
+        .stat-label { font-size: 0.72rem; color: #bdc3c7; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600; }
+        .stat-value { font-size: 1.2rem; font-weight: 800; color: #1abc9c; margin-top: 3px; }
+
+    </style>
+</head>
+<body>
+
+<div id="infoModal" style="display:none; position:fixed; z-index:1000; left:0; top:0; width:100%; height:100%; overflow:auto; background-color:rgba(0,0,0,0.8);">
+    <div style="background-color:#ffffff; margin:5% auto; padding:25px; border-radius:8px; width:85%; max-width:900px; color:#333333; position:relative; box-shadow: 0 5px 25px rgba(0,0,0,0.2);">
+        <span onclick="document.getElementById('infoModal').style.display='none'" style="position:absolute; right:20px; top:15px; font-size:28px; font-weight:bold; cursor:pointer; color:#bbb;">&times;</span>
+        <h2 id="modalTitle" style="color:#00e676; border-bottom:2px solid #333; padding-bottom:10px; margin-top:0;">Analisi Match</h2>
+
+        <div id="modalContent" style="margin-top:15px; font-size:1rem; line-height:1.6; white-space: pre-wrap;"></div>
+    </div>
+</div>
+
+    <header>
+        <h2>Value Analyzer <span class="pro-badge">PRO 2.0</span></h2>
+
+        <div class="stats-bar-header" style="display: flex; justify-content: center; gap: 15px; margin-top: 15px; flex-wrap: wrap;">
+            <div class="stat-card">
+                <div class="stat-label">Main Bet Win Rate</div>
+                <div class="stat-value" id="main-win-rate">—</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Yield (profitto/puntato)</div>
+                <div class="stat-value" id="main-yield">—</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">CLV medio</div>
+                <div class="stat-value" id="main-clv">—</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Main bet refertate</div>
+                <div class="stat-value" id="main-total">—</div>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <div class="status-bar">
+            <span id="status">Caricamento in corso...</span>
+            <select id="date-selector" onchange="loadData(this.value)">
+                <option value="">Caricamento date...</option>
+            </select>
+            <button onclick="loadData(document.getElementById('date-selector').value)">Aggiorna Dati</button>
+        </div>
+        
+        <div id="tickets-list"></div>
+        <div id="predictions-list"></div>
+    </div>
+
+    <footer>
+        NESSUNA SCOMMESSA È SICURA. GIOCA RESPONSABILMENTE.
+    </footer>
+
+    <script>
+
+
+function openModal(matchId) {
+    let match = window.currentPredictions.find(m => m.match_id === matchId);
+    if(match) {
+        let isPost = match.status === 'post' || match.status === 'FT (Conclusa)';
+        let eloHtml = '';
+        if (match.elo && match.elo.home_rating) {
+            eloHtml = `<div style="background:#edf2f7; padding:8px 12px; border-radius:6px; margin:10px 0; font-size:0.85rem; color:#2d3748;">
+                ⚡ <strong>Elo Rating:</strong> ${match.home_team} (${match.elo.home_rating}) vs ${match.away_team} (${match.elo.away_rating}) 
+                <span style="color:#718096; margin-left:8px;">[Vantaggio: +${match.elo.rating_diff} pts]</span>
+            </div>`;
+        }
+        let allBetsHtml = '<div style="display:block; margin-top:10px;">';
+        if (match.top_predictions) {
+            match.top_predictions.sort((a,b) => b.confidence - a.confidence).forEach(p => {
+                let innerIcon = '';
+                if (isPost && p.hasOwnProperty('is_correct') && !p.market.includes("NO BET")) {
+                    innerIcon = p.is_correct ? '<span style="color:#155724; font-weight:bold; font-size:0.75rem; margin-left:6px; padding:2px 5px; background:#d4edda; border:1px solid #c3e6cb; border-radius:4px; display:inline-block;">[✓ VINCENTE]</span>' : '<span style="color:#721c24; font-weight:bold; font-size:0.75rem; margin-left:6px; padding:2px 5px; background:#f8d7da; border:1px solid #f5c6cb; border-radius:4px; display:inline-block;">[✗ PERDENTE]</span>';
+                }
+                let innerStars = '★'.repeat(p.confidence || 1) + '☆'.repeat(5 - (p.confidence || 1));
+                
+                let probStr = p.prob ? p.prob.toFixed(1) + '%' : '-';
+                
+                let extraHtml = '';
+                if (p.odd && !isNaN(p.odd) && p.odd > 1) {
+                    let edgeStr = p.edge !== undefined ? p.edge.toFixed(1) + '%' : '-';
+                    let evStr = p.ev !== undefined ? p.ev.toFixed(1) + '%' : '-';
+                    let evColor = p.ev > 0 ? '#27ae60' : '#e74c3c';
+                    
+                    let pDec = p.prob / 100.0;
+                    let kelly = ((pDec * p.odd) - 1) / (p.odd - 1);
+                    let recStake = '';
+                    if (kelly > 0) {
+                        let kFraction = (kelly * 0.25 * 100); 
+                        if (kFraction > 2) kFraction = 2; 
+                        if (kFraction < 0.25) kFraction = 0.25; 
+                        recStake = `<span style="background:#e8f8f5; border:1px solid #27ae60; color:#27ae60; padding:2px 6px; border-radius:4px; font-weight:bold; font-size:0.7rem; white-space:nowrap;">Stake: ${kFraction.toFixed(2)}%</span>`;
+                    }
+                    
+                    extraHtml = `
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-top:8px; font-size:0.8rem; padding-top:8px; border-top:1px dashed #e1e8ed;">
+                        <div style="color:#555; display:flex; flex-wrap:wrap; gap:10px;">
+                            <span style="white-space:nowrap;"><strong>IA:</strong> <span style="color:#2c3e50; font-weight:bold;">${probStr}</span></span>
+                            <span style="white-space:nowrap;"><strong>EV:</strong> <span style="color:${evColor}; font-weight:bold;">${evStr}</span></span>
+                            <span style="white-space:nowrap;"><strong>Edge:</strong> <span style="color:#2980b9; font-weight:bold;">${edgeStr}</span></span>
+                        </div>
+                        <div>${recStake}</div>
+                    </div>`;
+                } else {
+                    extraHtml = `
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-top:8px; font-size:0.8rem; padding-top:8px; border-top:1px dashed #e1e8ed;">
+                        <div style="color:#555; display:flex; flex-wrap:wrap; gap:10px;">
+                            <span style="white-space:nowrap;"><strong>IA:</strong> <span style="color:#2c3e50; font-weight:bold;">${probStr}</span></span>
+                        </div>
+                    </div>`;
+                }
+
+                allBetsHtml += `
+                <div style="background:#fff; border-left:4px solid #1abc9c; border-radius:4px; padding:10px 12px; margin-bottom:10px; border-top:1px solid #e1e8ed; border-right:1px solid #e1e8ed; border-bottom:1px solid #e1e8ed; box-shadow:0 1px 3px rgba(0,0,0,0.02);">
+                    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+                        <div style="display:flex; align-items:baseline; gap:8px;">
+                            <strong style="color:#2c3e50; font-size:1.05rem; display:inline-block; min-width:60px;">${p.market}</strong> 
+                            <span style="color:#7f8c8d; font-size:0.85rem;">quota</span> 
+                            <strong style="color:#16a085; font-size:1.1rem;">${p.odd}</strong>
+                        </div>
+                        <div style="display:flex; align-items:center;">
+                            <span style="color:#f39c12; letter-spacing:2px; margin-right:5px; font-size:1rem; white-space:nowrap;">${innerStars}</span> 
+                            ${innerIcon}
+                        </div>
+                    </div>
+                    ${extraHtml}
+                </div>`;
+            });
+        }
+        allBetsHtml += '</div>';
+
+        let analysisText = match.analysis_360 ? match.analysis_360.replace(/\n/g, '<br/><br/>') : 'Analisi testuale non disponibile.';
+        let providerName = (match.odds && match.odds.provider) ? match.odds.provider : 'Bookmaker';
+
+        let combinedHtml = `
+            <div style="display:flex; gap: 30px; flex-wrap: wrap;">
+                <div style="flex: 1; min-width: 320px;">
+                    <h4 style="margin-top:0; color:#0a1f44; border-bottom:2px solid #0a1f44; padding-bottom:8px; font-size:1.1rem;">Tutti i Pronostici <span style="font-size:0.75rem; color:#7f8c8d; font-weight:normal;">(${providerName})</span></h4>
+                    ${allBetsHtml}
+                    <div style="margin-top:15px; font-size:0.75rem; color:#666; background:#f4f6f8; padding:10px; border-radius:4px; border:1px solid #e1e8ed;">
+                        <strong style="color:#2c3e50;">Note Affidabilità (Stelle):</strong><br>
+                        Score = 0.4*Prob Modello + 0.3*Valore EV + 0.2*Qualità Dati + 0.1*Stabilità Quote. (Fase B).
+                    </div>
+                </div>
+                <div style="flex: 1; min-width: 300px;">
+                    <h4 style="margin-top:0; color:#0a1f44; border-bottom:2px solid #0a1f44; padding-bottom:8px; font-size:1.1rem;">L'Analisi dell'AI</h4>
+                    <div style="background:#fff; padding:15px; border-radius:4px; border:1px solid #e1e8ed; font-size:0.95rem; line-height:1.6; color:#333; text-align:justify; font-family:'Merriweather', serif;">
+                        ${analysisText}
+                    </div>
+                </div>
+            </div>
+        `;
+
+        document.getElementById('modalTitle').innerText = match.home_team + " - " + match.away_team;
+        document.getElementById('modalContent').innerHTML = combinedHtml;
+        document.getElementById('infoModal').style.display = 'block';
+    }
+}
+
+// Close modal se clicchi fuori
+window.onclick = function(event) {
+    let modal = document.getElementById('infoModal');
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+        function toggleAccordion(btn) {
+            var content = btn.nextElementSibling;
+            if (content.style.maxHeight) {
+                content.style.maxHeight = null;
+                btn.innerHTML = "Leggi l'analisi completa ➔";
+            } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+                btn.innerHTML = 'Chiudi articolo ▲';
+            }
+        }
+
+        async function fetchDates() {
+            try {
+                const res = await fetch('backend/output/available_dates.json?t=' + new Date().getTime());
+                const data = await res.json();
+                const sel = document.getElementById('date-selector');
+                sel.innerHTML = '';
+                if(data.dates && data.dates.length > 0) {
+                    data.dates.forEach(d => {
+                        sel.innerHTML += `<option value="${d}">${d}</option>`;
+                    });
+                    loadData(data.dates[0]);
+                } else {
+                    sel.innerHTML = '<option value="">Nessun dato</option>';
+                    document.getElementById('status').innerHTML = "Nessun dato salvato.";
+                }
+            } catch(e) {
+                console.log("Fallback a latest.json");
+                loadData('latest');
+            }
+        }
+
+        async function loadData(dateStr) {
+            if(!dateStr) return;
+            const statusEl = document.getElementById('status');
+            const listEl = document.getElementById('predictions-list');
+            
+            try {
+                const fileToLoad = dateStr === 'latest' ? 'latest.json' : `${dateStr}.json`;
+                const url = `backend/output/${fileToLoad}?t=` + new Date().getTime();
+                
+                const response = await fetch(url);
+                if (!response.ok) throw new Error(`Dati non trovati.`);
+                
+                const data = JSON.parse(await response.text());
+                statusEl.innerHTML = `Dati del: <b>${data.date || 'Recente'}</b> | Aggiornati alle: <b>${new Date(data.updated_at).toLocaleTimeString()}</b>`;
+                
+                listEl.innerHTML = ''; 
+                if (!data.predictions) throw new Error("Struttura dati non valida.");
+                
+                // RENDER SCHEDINE PRONTE
+                const ticketsListEl = document.getElementById('tickets-list');
+                ticketsListEl.innerHTML = '';
+                if (data.tickets && data.tickets.length > 0) {
+                    let ticketsHtml = `
+                    <div class="tickets-wrapper">
+                        <div class="tickets-title">Le Schedine Pronte di Oggi</div>
+                        <div class="tickets-grid">
+                    `;
+                    data.tickets.forEach(t => {
+                        let matchesHtml = '';
+                        t.matches.forEach(m => {
+                            let matchInfo = data.predictions.find(p => p.match_id === m.match_id);
+                            let scoreHtml = '';
+                            let rIcon = '';
+                            let timeStr = '';
+                            if (matchInfo) {
+                                let localTimeStr = `📅 ${matchInfo.date} | ⏰ ${matchInfo.time}`;
+                                if (matchInfo.start_time && matchInfo.start_time.includes("T")) {
+                                    try {
+                                        let d = new Date(matchInfo.start_time);
+                                        localTimeStr = `📅 ` + d.toLocaleDateString('it-IT') + ` ⏰ ` + d.toLocaleTimeString('it-IT', {hour: '2-digit', minute:'2-digit'});
+                                    } catch(e) {}
+                                }
+                                timeStr = `<div style="font-size:0.75rem; color:#7f8c8d; font-weight:normal; margin-top:2px;">${localTimeStr}</div>`;
+
+                                let isLive = matchInfo.status === 'in' || matchInfo.status === 'LIVE';
+                                let isPost = matchInfo.status === 'post' || matchInfo.status === 'FT (Conclusa)';
+                                if (isLive || isPost) {
+                                    let displayStatus = matchInfo.time_detail ? matchInfo.time_detail : (isLive ? 'LIVE' : 'FINALE');
+                                    let color = isLive ? '#27ae60' : '#2c3e50';
+                                    scoreHtml = `<span style="font-size:0.85rem; font-weight:bold; color:${color}; margin-left: 8px;">[${matchInfo.home_score} - ${matchInfo.away_score} ${displayStatus}]</span>`;
+                                }
+                                
+                                if (isPost && matchInfo.top_predictions) {
+                                    let pred = matchInfo.top_predictions.find(p => p.market === m.market);
+                                    if (pred && pred.hasOwnProperty('is_correct')) {
+                                        if (m.market.includes("NO BET")) {
+                                            rIcon = '';
+                                        } else {
+                                            rIcon = pred.is_correct ? '<span style="color:green; font-weight:bold; margin-left: 8px;">[✓ VINCENTE]</span>' : '<span style="color:red; font-weight:bold; margin-left: 8px;">[✗ PERDENTE]</span>';
+                                        }
+                                    }
+                                }
+                            }
+
+                            matchesHtml += `
+                            <div class="t-match">
+                                <div class="t-match-title">${m.match_id} ${scoreHtml}</div>
+                                ${timeStr}
+                                <div class="t-match-pred" style="margin-top:5px;">
+                                    <span><b>${m.market}</b> &nbsp;&nbsp; <b>${m.odd}</b> ${rIcon}</span>
+                                </div>
+                            </div>
+                            `;
+                        });
+                        
+                        ticketsHtml += `
+                        <div class="ticket-card">
+                            <div class="ticket-header">${t.type.toUpperCase()} DEL GIORNO</div>
+                            <div class="ticket-stake">STAKE CONSIGLIATO: ${t.stake}</div>
+                            <div class="ticket-matches">${matchesHtml}</div>
+                            <div class="ticket-footer">
+                                Quota Totale: <span class="ticket-total-odd">${t.total_odd}</span>
+                            </div>
+                        </div>
+                        `;
+                    });
+                    ticketsHtml += `</div></div>`;
+                    ticketsListEl.innerHTML = ticketsHtml;
+                }
+                
+                // Ordinamento CRONOLOGICO
+                window.currentPredictions = data.predictions;
+                const sortedPredictions = data.predictions.sort((a, b) => {
+                    const timeA = new Date(`${a.date}T${a.time}`).getTime();
+                    const timeB = new Date(`${b.date}T${b.time}`).getTime();
+                    return timeA - timeB;
+                });
+
+                let tableHtml = `
+                <div style="overflow-x: auto;">
+                <table class="betmate-table">
+                    <thead>
+                        <tr>
+                            <th>LEGA/ORA</th>
+                            <th style="text-align:left; min-width: 150px;">EVENTO</th>
+                            <th>1</th>
+                            <th>X</th>
+                            <th>2</th>
+                            <th>SCELTA MIGLIORE</th>
+                            <th>QUOTA</th>
+                            <th>AFFIDABILITÀ</th>
+                            <th>RISULTATO</th>
+                            <th>ESITO</th>
+                            <th>INFO</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                `;
+
+                sortedPredictions.forEach((match, index) => {
+                    if (!match.top_predictions || match.top_predictions.length === 0) return;
+                    
+                    let isLive = match.status === 'in' || match.status === 'LIVE';
+                    let isPost = match.status === 'post' || match.status === 'FT (Conclusa)';
+        let eloHtml = '';
+        if (match.elo && match.elo.home_rating) {
+            eloHtml = `<div style="background:#edf2f7; padding:8px 12px; border-radius:6px; margin:10px 0; font-size:0.85rem; color:#2d3748;">
+                ⚡ <strong>Elo Rating:</strong> ${match.home_team} (${match.elo.home_rating}) vs ${match.away_team} (${match.elo.away_rating}) 
+                <span style="color:#718096; margin-left:8px;">[Vantaggio: +${match.elo.rating_diff} pts]</span>
+            </div>`;
+        }
+                    let providerName = (match.odds && match.odds.provider) ? match.odds.provider : 'Bookmaker';
+                    
+                    let scoreHtml = '';
+                    if (isLive || isPost) {
+                        let displayStatus = match.time_detail ? match.time_detail : (isLive ? 'LIVE' : 'FT');
+                        let color = isLive ? '#e74c3c' : '#2c3e50';
+                        scoreHtml = `<div style="color:${color}; font-weight:bold; font-size:0.85rem; margin-top:4px;">[ ${match.home_score} - ${match.away_score} ] <span style="font-size:0.7rem">(${displayStatus})</span></div>`;
+                    }
+
+                    let timeStr = match.time;
+                    if (match.start_time && match.start_time.includes('T')) {
+                        try {
+                            let d = new Date(match.start_time);
+                            timeStr = d.toLocaleTimeString('it-IT', {hour: '2-digit', minute:'2-digit'});
+                        } catch(e) {}
+                    }
+
+                    let best = match.top_predictions.find(p => p.is_main) || match.top_predictions[0];
+            if (best && best.market) {
+                best.market = best.market.replace(" (Dati non disponibili)", "").replace(" (Quote non disponibili)", "");
+            }
+
+                    let rIcon = '-';
+                    if (isPost && best.hasOwnProperty('is_correct')) {
+                        if (best.market.includes("NO BET")) {
+                            rIcon = '<span style="color:#7f8c8d; font-size:0.85rem;">N/D</span>';
+                        } else {
+                            rIcon = best.is_correct ? '<span style="color:#27ae60; font-weight:bold; font-size:1rem;">✓</span>' : '<span style="color:#e74c3c; font-weight:bold; font-size:1rem;">✗</span>';
+                        }
+                    }
+                    
+                    let pStars = '★'.repeat(best.confidence || 1) + '☆'.repeat(5 - (best.confidence || 1));
+                    
+                    let odd1 = (match.odds && match.odds['1']) ? parseFloat(match.odds['1']).toFixed(2) : '-';
+                    let oddX = (match.odds && match.odds['X']) ? parseFloat(match.odds['X']).toFixed(2) : '-';
+                    let odd2 = (match.odds && match.odds['2']) ? parseFloat(match.odds['2']).toFixed(2) : '-';
+            let trends = match.moneyway_trends;
+            if (trends) {
+                let getTrendStr = (odd, trendData) => {
+                    if (!trendData || !trendData.open || !trendData.current) return odd;
+                    let diff = trendData.current - trendData.open;
+                    if (diff < -0.01) return `${odd}<br><span style="font-size:0.7rem; color:#e74c3c; font-weight:bold;">▼ ${trendData.open.toFixed(2)}</span>`;
+                    if (diff > 0.01) return `${odd}<br><span style="font-size:0.7rem; color:#27ae60; font-weight:bold;">▲ ${trendData.open.toFixed(2)}</span>`;
+                    return odd;
+                };
+                odd1 = getTrendStr(odd1, trends['1']);
+                oddX = getTrendStr(oddX, trends['X']);
+                odd2 = getTrendStr(odd2, trends['2']);
+            }
+
+
+                    let allBetsHtml = '<ul class="bets-list" style="margin-top:10px; padding-left:0; list-style:none;">';
+                    match.top_predictions.sort((a,b) => b.confidence - a.confidence).forEach(p => {
+                        let innerIcon = '';
+                        if (isPost && p.hasOwnProperty('is_correct') && !p.market.includes("NO BET")) {
+                            innerIcon = p.is_correct ? '<span style="color:#27ae60; font-weight:bold; font-size:0.8rem; margin-left:8px;">[✓ VINCENTE]</span>' : '<span style="color:#e74c3c; font-weight:bold; font-size:0.8rem; margin-left:8px;">[✗ PERDENTE]</span>';
+                        }
+                        let innerStars = '★'.repeat(p.confidence || 1) + '☆'.repeat(5 - (p.confidence || 1));
+                        allBetsHtml += `<li style="margin-bottom: 8px; border-bottom: 1px dashed #eee; padding-bottom: 4px;"><span style="color:#7f8c8d;">•</span> <strong style="display:inline-block; width:70px;">${p.market}</strong> quota <strong style="color:#2c3e50;">${p.odd}</strong> <span style="color:#f39c12; margin-left:10px;">${innerStars}</span> ${innerIcon}</li>`;
+                    });
+                    allBetsHtml += '</ul>';
+                    let m_league = match.league || '';
+                    if(m_league.length > 15) m_league = m_league.substring(0,15) + '...';
+
+                    tableHtml += `
+                        <tr>
+                            <td>
+                                <div class="league-col">
+                                    <span class="time-name">${timeStr}</span>
+                                    <span class="league-name" title="${match.league}">${m_league.toUpperCase()}</span>
+                                </div>
+                            </td>
+                            <td class="event-name">${match.home_team} - ${match.away_team}</td>
+                            <td><span class="odd-box">${odd1}</span></td>
+                            <td><span class="odd-box">${oddX}</span></td>
+                            <td><span class="odd-box">${odd2}</span></td>
+                            <td><span class="our-pick">${best.market}</span></td>
+                            <td><strong style="font-size:0.95rem;">${best.odd}</strong></td>
+                            <td style="color:#f39c12; font-size:0.95rem; letter-spacing:1px;">${pStars}</td>
+                                <td style="text-align:center;">${scoreHtml}</td>
+                                <td>${rIcon}</td>
+                            <td><button class="btn-info-small" onclick="openModal('${match.match_id}')">Info ℹ️</button></td>
+                        </tr>
+                        
+                    `;
+                });
+                
+                tableHtml += `</tbody></table></div>`;
+                listEl.innerHTML = tableHtml;
+            } catch (error) {
+                console.error(error);
+                statusEl.innerHTML = `<span style="color: red; font-weight:bold;">Errore: ${error.message}</span>`;
+            }
+        }
+
+        
+        function renderStatsObj(stats) {
+            if (!stats) return;
+            let wrVal = (stats.main_win_rate !== undefined ? stats.main_win_rate : 0) + '%';
+            let ydVal = (stats.main_yield_pct !== undefined ? stats.main_yield_pct : 0) + '%';
+            let clvVal = (stats.main_clv_mean !== null && stats.main_clv_mean !== undefined) ? stats.main_clv_mean + '%' : '—';
+            let totVal = stats.total_main_bets_settled !== undefined ? stats.total_main_bets_settled : 0;
+
+            document.querySelectorAll('#main-win-rate').forEach(el => el.textContent = wrVal);
+            document.querySelectorAll('#main-yield').forEach(el => el.textContent = ydVal);
+            document.querySelectorAll('#main-clv').forEach(el => el.textContent = clvVal);
+            document.querySelectorAll('#main-total').forEach(el => el.textContent = totVal);
+        }
+
+        function loadHeaderStats() {
+            if (window.PERFORMANCE_STATS) {
+                renderStatsObj(window.PERFORMANCE_STATS);
+            }
+            fetch('backend/output/stats.json?v=' + Date.now())
+              .then(r => { if (!r.ok) throw new Error('stats.json ' + r.status); return r.json(); })
+              .then(stats => renderStatsObj(stats))
+              .catch(e => console.error('[STATS] Errore caricamento:', e));
+        }
+        loadHeaderStats();
+
+        fetchDates();
+        
+        // Auto-aggiornamento ogni 60 secondi
+        setInterval(() => {
+            const dateSel = document.getElementById('date-selector');
+            if (dateSel && dateSel.value) {
+                loadData(dateSel.value);
+            }
+        }, 60000);
+    </script>
+</body>
+</html>
